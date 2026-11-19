@@ -2,7 +2,7 @@
 
 *Idea No. 1 in my ongoing attempt to put my biology degree to use.*
 
-> Acknowledgements: I did use Claude Code to complete this but all code was human reviewed; please see the Reviews and Changes section to see adjustments I requested. Additionally, this README was entirely human written, which is why it's so long. To make up for that I have a static dashboard as a pdf here on GitHub and a normal dashboard on [my website](https://demisdomain.com). I advise looking at those for general information and reading this if you'd like to hear about my thought process.
+> Acknowledgements: I did use Claude Code to complete this but all code was human reviewed; please see the Reviews and Changes section to see adjustments I requested. Additionally, this README was entirely human written, which is why it's so long. To make up for that I have a static dashboard as a pdf here on GitHub (warning the figures don't render well and it's better on the website) and a normal dashboard on [my website](https://demisdomain.com). I advise looking at those for general information and reading this if you'd like to hear about my thought process.
 
 ## Introduction
 
