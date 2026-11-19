@@ -1,0 +1,17 @@
+[value-weighted] breakeven one-way cost (bps) and net Sharpe at 25 bps
+turnover_scenario  high (q = 1.0)  low (q = 0.2)  medium (q = 0.5)
+strategy                                                          
+ew_all                       22.7          104.0              44.4
+ew_bonf                      50.6          235.1              99.3
+ridge_cv                     22.3           82.9              41.0
+ridge_g0.1                   20.7           79.6              38.5
+ridge_g1.0                   29.2          117.0              55.0
+ridge_g10.0                  37.0          148.5              69.8
+turnover_scenario  high (q = 1.0)  low (q = 0.2)  medium (q = 0.5)
+strategy                                                          
+ew_all                      -0.06           0.48              0.28
+ew_bonf                      0.39           0.68              0.57
+ridge_cv                    -0.10           0.60              0.34
+ridge_g0.1                  -0.23           0.75              0.39
+ridge_g1.0                   0.15           0.82              0.57
+ridge_g10.0                  0.25           0.64              0.49

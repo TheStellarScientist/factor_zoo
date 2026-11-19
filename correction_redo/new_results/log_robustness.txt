@@ -1,0 +1,48 @@
+Average in-sample mean: 0.679%/month; 210 signals, 137391 signal-months
+            model        term  coef_pct_per_month    se      t  share_of_in_sample_mean
+        signal FE post_sample              -0.237 0.065 -3.651                   -0.348
+        signal FE    post_pub              -0.394 0.055 -7.203                   -0.580
+signal + month FE post_sample              -0.210 0.057 -3.657                   -0.309
+signal + month FE    post_pub              -0.209 0.081 -2.565                   -0.308
+
+Spearman rank correlation, in-sample vs post-pub t: 0.38 (p = 1.1e-08)
+
+Post-publication Bonferroni survivors:
+             signal  year  holding_months  is_t  is_rank  pp_t  pp_rank  pp_sharpe  pp_n
+        DivYieldST  1979             NaN  5.29       43  9.68        1       1.43   552
+AnnouncementReturn  1996             1.0 12.51        4  7.25        2       1.35   348
+   AnalystRevision  1984             1.0  5.35       41  6.74        3       1.05   492
+        SmileSlope  2011             1.0  8.21       14  5.15        4       1.55   133
+  EarningsSurprise  1984             1.0  4.92       54  5.10        5       0.80   492
+       VolumeTrend  1996            12.0  2.98      126  4.95        6       0.92   348
+    EarningsStreak  2012             1.0 10.45        6  4.43        7       1.23   156
+     ShortInterest  2001             1.0  5.21       44  4.05        8       0.83   288
+        STreversal  1990             1.0 14.03        2  3.93        9       0.66   420
+
+In-sample top 12:
+             signal  year  holding_months  is_t  is_rank  pp_t  pp_rank  pp_sharpe  pp_n
+         DivSeason  2013             1.0 14.46        1  1.67       72       0.48   144
+        STreversal  1990             1.0 14.03        2  3.93        9       0.66   420
+       TrendFactor  2016             1.0 13.43        3  1.19       99       0.40   108
+AnnouncementReturn  1996             1.0 12.51        4  7.25        2       1.35   348
+           DelFINL  2005            12.0 11.98        5  1.85       61       0.41   240
+    EarningsStreak  2012             1.0 10.45        6  4.43        7       1.23   156
+         IndRetBig  2007             1.0  9.79        7  3.23       17       0.76   216
+              dNoa  2004             1.0  9.38        8  1.18      101       0.26   252
+             ChTax  2011             3.0  9.08        9  2.89       27       0.77   168
+              REV6  1996             1.0  8.84       10  3.20       18       0.59   348
+         DelNetFin  2005            12.0  8.78       11  0.24      162       0.05   240
+  ResidualMomentum  2011             1.0  8.67       12  1.25       92       0.33   168
+
+Top 10 by post-publication Sharpe:
+             signal  year  holding_months  is_t  is_rank  pp_t  pp_rank  pp_sharpe  pp_n
+        SmileSlope  2011             1.0  8.21       14  5.15        4       1.55   133
+        DivYieldST  1979             NaN  5.29       43  9.68        1       1.43   552
+AnnouncementReturn  1996             1.0 12.51        4  7.25        2       1.35   348
+    EarningsStreak  2012             1.0 10.45        6  4.43        7       1.23   156
+      dCPVolSpread  2014             1.0  7.47       19  3.46       13       1.22    97
+   AnalystRevision  1984             1.0  5.35       41  6.74        3       1.05   492
+       VolumeTrend  1996            12.0  2.98      126  4.95        6       0.92   348
+       CPVolSpread  2009             1.0  3.16      114  3.28       16       0.91   157
+          dVolCall  2014             1.0  2.94      129  2.40       43       0.84    97
+     ShortInterest  2001             1.0  5.21       44  4.05        8       0.83   288

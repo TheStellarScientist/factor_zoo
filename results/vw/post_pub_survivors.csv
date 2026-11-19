@@ -1,0 +1,3 @@
+signal,description,authors,year,category,holding_months,n_leg,is_mean,is_t,is_rank,is_sharpe,pp_mean,pp_t,pp_rank,pp_sharpe,pp_n
+AnnouncementReturn,Earnings announcement return,"Chan, Jegadeesh and Lakonishok",1996,Price,1.0,469.0,1.4124739880329031,7.066302189010952,3,1.7665755472527382,0.982489352428483,4.4290724956507805,1,0.8224581148905507,348
+SmileSlope,Put volatility minus call volatility,Yan,2011,Options,1.0,242.0,2.181358006940925,6.018392887781894,8,1.9111627755881102,0.9403258844843192,3.991068391699967,2,1.1988199802359496,133

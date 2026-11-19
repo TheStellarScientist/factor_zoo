@@ -1,0 +1,10 @@
+                             n  in_sample  post_sample  post_pub  still_significant  retention
+tier                                                                                          
+1 Bonferroni              82.0      0.938        0.623     0.386              0.390      0.412
+2 t > 3, not Bonferroni   38.0      0.714        0.403     0.294              0.184      0.411
+3 naive only              64.0      0.472        0.341     0.205              0.219      0.434
+4 fails naive             23.0      0.322        0.089     0.101              0.043      0.315
+all                      207.0      0.685        0.433     0.282              0.261      0.411
+
+Slope of post-pub on in-sample mean: 0.40
+Negative controls significant in-sample (p<0.05): 1 of 14; t > 3: 0

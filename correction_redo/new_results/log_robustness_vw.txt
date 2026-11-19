@@ -1,0 +1,41 @@
+Average in-sample mean: 0.531%/month; 175 signals, 117029 signal-months
+            model        term  coef_pct_per_month    se      t  share_of_in_sample_mean
+        signal FE post_sample              -0.253 0.078 -3.227                   -0.476
+        signal FE    post_pub              -0.370 0.066 -5.605                   -0.696
+signal + month FE post_sample              -0.223 0.089 -2.509                   -0.420
+signal + month FE    post_pub              -0.207 0.108 -1.913                   -0.390
+
+Spearman rank correlation, in-sample vs post-pub t: 0.28 (p = 1.2e-04)
+
+Post-publication Bonferroni survivors:
+             signal  year  holding_months  is_t  is_rank  pp_t  pp_rank  pp_sharpe  pp_n
+AnnouncementReturn  1996             1.0  7.07        3  4.43        1       0.82   348
+        SmileSlope  2011             1.0  6.02        8  3.99        2       1.20   133
+
+In-sample top 12:
+             signal  year  holding_months  is_t  is_rank  pp_t  pp_rank  pp_sharpe  pp_n
+       TrendFactor  2016             1.0  9.50        1  0.26       99       0.09   108
+         IndRetBig  2007             1.0  8.73        2  1.70       32       0.40   216
+AnnouncementReturn  1996             1.0  7.07        3  4.43        1       0.82   348
+            Mom12m  1993             3.0  6.35        4  2.53        8       0.45   384
+      dCPVolSpread  2014             1.0  6.25        5  2.07       21       0.73    97
+        STreversal  1990             1.0  6.19        6 -0.41      136      -0.07   420
+            IntMom  2012             1.0  6.06        7  0.98       61       0.27   156
+        SmileSlope  2011             1.0  6.02        8  3.99        2       1.20   133
+        ShareIss1Y  2008            12.0  5.71        9  2.48       10       0.60   204
+  ResidualMomentum  2011             1.0  5.42       10  0.07      112       0.02   168
+        ShareIss5Y  2006            12.0  5.41       11  2.35       17       0.54   228
+               NOA  2004             1.0  5.26       12  1.14       56       0.25   252
+
+Top 10 by post-publication Sharpe:
+                    signal  year  holding_months  is_t  is_rank  pp_t  pp_rank  pp_sharpe  pp_n
+               SmileSlope  2011             1.0  6.02        8  3.99        2       1.20   133
+              CPVolSpread  2009             1.0  4.02       25  3.63        3       1.00   157
+       AnnouncementReturn  1996             1.0  7.07        3  4.43        1       0.82   348
+             dCPVolSpread  2014             1.0  6.25        5  2.07       21       0.73    97
+               FirmAgeMom  2006             1.0  4.88       16  2.96        5       0.68   228
+             BetaTailRisk  2014            12.0  2.82       47  2.23       20       0.67   132
+EarningsForecastDisparity  2011             1.0  0.97      132  2.49        9       0.66   168
+               ShareIss1Y  2008            12.0  5.71        9  2.48       10       0.60   204
+        MomSeason16YrPlus  2008             1.0  2.30       63  2.45       11       0.59   204
+                   BetaFP  2014             1.0 -0.02      164  1.95       26       0.59   132

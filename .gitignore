@@ -1,0 +1,6 @@
+# Raw data is downloaded by src/download.py and not redistributed
+data/*.csv
+data/*.parquet
+__pycache__/
+.ipynb_checkpoints/
+.venv/

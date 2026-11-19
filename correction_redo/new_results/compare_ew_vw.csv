@@ -1,0 +1,19 @@
+,Equal-weighted,Value-weighted
+Predictors tested,212,179
+Pass p < 0.05 in-sample,187,77
+Pass Benjamini-Hochberg 5%,182,60
+Pass t > 3 in-sample,123,43
+Pass Bonferroni in-sample,82,27
+Mean in-sample return (%/mo),0.68,0.53
+Mean post-publication return (%/mo),0.28,0.18
+Retention after publication,41%,33%
+Still significant after publication,26%,18%
+Bonferroni tier still significant,39%,37%
+Bonferroni survivors after publication,9,2
+Post-pub decline with month FE (%/mo),-0.21 (t = -2.6),-0.21 (t = -1.9)
+"Rank corr., in-sample vs post-pub t",0.38,0.28
+"Sharpe, equal weight all (1995–2025)",1.2,0.63
+"Sharpe, Bonferroni survivors",1.02,0.76
+"Sharpe, ridge with CV",2.73,0.87
+"Breakeven cost, equal weight all (bps, q = 0.5)",61,44
+"Breakeven cost, ridge with CV (bps, q = 0.5)",45,41

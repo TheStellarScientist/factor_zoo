@@ -1,0 +1,11 @@
+                threshold  p_cutoff  neg_log10_p  m_tests
+         Naive (p < 0.05)  0.050000     1.301030      179
+   Harvey-Liu-Zhu (t > 3)  0.002888     2.539351      179
+Benjamini-Hochberg FDR 5%  0.016604     1.779781      179
+    Bonferroni (0.05 / m)  0.000279     3.553883      179
+
+predictor: 179 signals
+  pass naive: 77
+  pass hlz  : 43
+  pass bh   : 60
+  pass bonf : 27
